@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(./tightly-woven-fabric-texture-highlights-individual-threads-colors.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background: #ffffff83;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+nav h1{
+    padding: 10px;
+    font-weight: 400;
+}
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+    gap: 20px;
+}
+.box{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 10PX;
+    background: #00000093;
+    color: #fff;
+    gap: 10px;
+}
+.box h4{
+    font-size: 1.5rem;
+}
+.circle{
+    height: 150px;
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 150px;
+    background: conic-gradient(red 45deg,#ffffff 0deg);
+}
+.circle span{
+    /* position: absolute; */
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cfcfcf;
+}
+ion-icon{
+    font-size: 3rem;
+}
+.black{
+    background: conic-gradient(#282827 320deg,#ffffff 0deg);
+}
+.red{
+    background: conic-gradient(#ce3138 290deg,#ffffff 0deg);
+}
+.orange{
+    background: conic-gradient(#e9523c 240deg,#ffffff 0deg);
+}
+.yellow{
+    background: conic-gradient(#ff9141 200deg,#ffffff 0deg);
+}
+.voilet{
+    background: conic-gradient(#5b4e91 180deg,#ffffff 0deg);
+}
+.blue{
+    background: conic-gradient(#38a5d8 300deg,#ffffff 0deg);
+}
+.black ion-icon{
+    color: #282827;
+}
+.red ion-icon{
+    color: #ce3138;
+}
+.orange ion-icon{
+    color: #e9523c;
+}
+.yellow ion-icon{
+    color: #ff9141;
+}
+.voilet ion-icon{
+    color: #5b4e91;
+}
+.blue ion-icon{
+    color:#38a5d8;
+}
